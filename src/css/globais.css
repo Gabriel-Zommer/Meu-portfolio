@@ -9,9 +9,13 @@ html {
   }
   
   body {
-    background-color: var(--cor-fundo-cinza-escuro);
+    /* background-color: var(--cor-fundo-cinza-escuro); */
     font-family: var(--fonte-primaria);
     font-size: var(--fonte-normal);
+    background-image: url(../imagens/cidade-desfocada.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 
   .container {
